@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Otternaut::Application.config.secret_key_base = '00a87c2e6d49da93a436992fa18e2088d9e844c940859f69339041a34d47e016b48f3fc2f8b93e4c26a2f0e97e844834b7ff2b1eedcad17975f740af3a51b937'
+Otternaut::Application.config.secret_key_base = '8eee199e826bcb807babba4fa43833d35db6bb8322fea7a40d2a0c8dcd594fae16630dfeb2a92225ae8fe080c739ba3edaf61de8f4ff118f69b6a3457c7a885a'
