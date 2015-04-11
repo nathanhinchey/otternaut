@@ -17,6 +17,7 @@ INDEX BY animal_2
 ##animals
 * species_id
 * image (blob)
+* uploader_id (a user)
 
 ##species
 * name
