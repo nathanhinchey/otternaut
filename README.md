@@ -23,8 +23,3 @@ TODO.list
     - User access
       - can access without login
       - OAuth (Facebook login, basic authentication)
-
-
-Thoughts about votes in database:
-  - have a new Battle object for each time a pair of animals do battle
-    - track number of wins for both animals in this object and the number of battles
