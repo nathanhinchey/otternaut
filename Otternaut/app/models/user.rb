@@ -8,4 +8,12 @@
 #
 
 class User < ActiveRecord::Base
+  has_many(
+    :uploaded_animals,
+    class_name: "Animal",
+    foreign_key: :uploaded_animal_id,
+    primary_key: :id
+  )
+
+  has_many :votes
 end

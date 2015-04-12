@@ -10,5 +10,12 @@
 #
 
 class Species < ActiveRecord::Base
+  has_many(
+    :animals,
+    class_name: "Animal",
+    foreign_key: :animal_id,
+    priamry_key: :id
+  )
 
+  #belongs_to family
 end
