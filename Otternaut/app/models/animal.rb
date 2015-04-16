@@ -15,7 +15,7 @@ class Animal < ActiveRecord::Base
     :species,
     class_name: "Species",
     foreign_key: :species_id,
-    priamry_key: :id
+    primary_key: :id
   )
 
   belongs_to(
