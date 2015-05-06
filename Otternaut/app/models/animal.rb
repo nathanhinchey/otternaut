@@ -25,21 +25,21 @@ class Animal < ActiveRecord::Base
     primary_key: :id
   )
 
-  has_many (
+  has_many(
     :animal_1_votes,
     class_name: "Vote",
     foreign_key: :animal_1_id,
     primary_key: :id
   )
 
-  has_many (
+  has_many(
     :animal_2_votes,
     class_name: "Vote",
     foreign_key: :animal_2_id,
     primary_key: :id
   )
 
-  has_many (
+  has_many(
     :victories,
     class_name: "Vote",
     foreign_key: :victor_animal_id,
